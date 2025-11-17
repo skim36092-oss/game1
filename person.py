@@ -8,6 +8,7 @@ class Person:
 
 
 
+
     def __str__(self):
        return f'фио: {self.__fio}| номер телефона:{self.__phone}| секции {"нет" if len(self.__sections) == 0 else self.__sections}'
 

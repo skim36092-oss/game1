@@ -3,6 +3,7 @@ class Section:
 
 
 
+
     def __init__(self, name: str,graphic: dict):
 
           self. __name = name
