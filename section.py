@@ -2,12 +2,13 @@ class Section:
     __max_person=0
 
 
+
     def __init__(self, name: str,graphic: dict):
 
           self. __name = name
           self.__graphic= graphic
 
-
+#ehjls
     def  __str__(self):
         return f"название: {self.__name}| график: {"нет" if len(self.__graphic.keys()) ==  0 else self.graphic}| людей в секции:{self.__max_person}"
 
